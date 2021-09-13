@@ -1,0 +1,23 @@
+{
+  "name": "vbugaevdev",
+  "version": "1.0.0",
+  "description": "Personal web-site about me and some projs",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinerbob/vbugaevdev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marinerbob/vbugaevdev/issues"
+  },
+  "homepage": "https://github.com/marinerbob/vbugaevdev#readme",
+  "devDependencies": {
+    "husky": "^7.0.2"
+  }
+}
