@@ -4,7 +4,7 @@
   "description": "Personal web-site about me and some projs",
   "main": "index.js",
   "scripts": {
-    "deploy": "git push origin `git subtree split --prefix dist main`:gh-pages --force"
+    "deploy": "git push origin `git subtree split --prefix dist main`:gh-page --force"
   },
   "repository": {
     "type": "git",
