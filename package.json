@@ -4,7 +4,10 @@
   "description": "Personal web-site about me and some projs",
   "main": "index.js",
   "scripts": {
-    "deploy": "git push origin `git subtree split --prefix dist main`:gh-page --force"
+    "dev": "npx eleventy --serve",
+    "build": "npx eleventy",
+    "deploy": "git push origin `git subtree split --prefix dist main`:gh-page --force",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/marinerbob/vbugaevdev#readme",
   "devDependencies": {
-    "husky": "^7.0.2"
+    "@11ty/eleventy": "^0.12.1",
+    "husky": "^7.0.0"
   }
 }
