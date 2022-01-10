@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx eleventy --serve",
-    "build": "npx eleventy",
-    "deploy": "git push origin `git subtree split --prefix dist main`:gh-page --force",
-    "prepare": "husky install"
+    "build": "npx eleventy"
   },
   "repository": {
     "type": "git",
@@ -21,7 +19,6 @@
   },
   "homepage": "https://github.com/marinerbob/vbugaevdev#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "husky": "^7.0.0"
+    "@11ty/eleventy": "^0.12.1"
   }
 }
