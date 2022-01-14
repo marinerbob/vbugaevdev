@@ -1,6 +1,10 @@
 module.exports = config => {
-    // Set directories to pass through to the dist folder
-    config.addPassthroughCopy('./src/images/');
+    config.addPassthroughCopy('./src/assets/images');
+    config.addPassthroughCopy('./src/assets/fonts'); //todo
+    config.addPassthroughCopy('./src/robots.txt'); //todo
+    config.addPassthroughCopy('./src/site.webmanifest') //todo
+
+    config.setDataDeepMerge(true);
 
     return {    
       markdownTemplateEngine: 'njk',
@@ -12,3 +16,4 @@ module.exports = config => {
       }
     };
   };
+  
